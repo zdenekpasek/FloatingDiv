@@ -1,0 +1,140 @@
+.wrapper{
+    max-width: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    color: #555;
+     
+}
+
+.hlavicka{
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+.adresy{
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.produkty{
+    height: 350px;
+}
+
+.logo{
+    height: 150px;
+    max-width: 400px;
+    float: left;
+}
+.info{
+    height: 150px;
+    width: 400px;
+    float: right;
+}
+
+.pInfo{
+    float: right;
+    font-size: 16px;
+    
+    
+}
+
+.hlavicka::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.dodavatel{
+    height: 100px;
+    width: 400px;
+    float: left;
+}
+
+.odberatel{
+    height: 100px;
+    width: 400px;
+    float: right;
+}
+
+.pOdberatel{
+    float: right;
+}
+
+.zahlavi{
+    background: #e0dcd8;
+    border-bottom: 1px solid #b3aea9;
+    height: 50px;
+    width: 800px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+
+}
+
+.zahlaviNadpis{
+    height: 50px;
+    width: 264px;
+    display: inline-block;
+    
+}
+.zahlaviNadpis:nth-child(1){
+    text-align: left;
+    
+}
+.zahlaviNadpis:nth-child(2){
+    text-align: center;
+    
+}
+.zahlaviNadpis:nth-child(3){
+    text-align: right;
+    
+}
+
+/* 
+.produkty::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+ */
+
+.sloupce:nth-child(2){
+    height: 300px;
+    width: 264px;
+    float: left;
+    text-align: left;
+    
+}
+
+.sloupce:nth-child(3){
+    height: 300px;
+    width: 272px;
+    display: inline-block;
+    text-align: center;
+}
+
+.sloupce:nth-child(4){
+    height: 300px;
+    width: 264px;
+    float: right;
+    text-align: right;
+}
+
+.sloupce p{
+    display: block; 
+    border-bottom: 1px solid #eee;  
+}
+
+.cenaCelkem{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+

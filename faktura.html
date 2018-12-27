@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moje prvni faktura</title>
+
+	<style>
+
+	.faktura {
+		max-width: 800px;
+		margin: auto;
+		line-height: 20px;
+		border: 1px solid rgb(0, 0, 0);
+		color: #555;
+
+	}
+
+	.faktura table {
+		width: 100%;
+		text-align: left;
+	}
+
+	.faktura table td {
+		padding: 8px;
+		vertical-align: top;
+		
+	}
+
+	 .faktura table tr td:nth-child(2) {
+        text-align: right;
+    }
+
+    .faktura table tr.produkt td:nth-child(2){
+    	text-align: right;
+    }
+
+    .faktura table tr.produkt td:nth-child(3) {
+    	text-align: right;
+    }
+
+     .faktura table tr.produkt td {
+     	 border-bottom: 1px solid #eee;
+     }
+
+     .faktura table tr.produkt.posl td {
+     	border-bottom: none;
+     }
+
+    .faktura table tr.nadpis td {
+    	background: #e0dcd8;
+    	font-weight: bold;
+    	border-bottom: 1px solid #b3aea9;
+    	text-align: left;
+    }
+
+    .faktura table tr.nadpis td:nth-child(2){
+    	text-align: right;
+    }
+
+    .faktura table tr.nadpis td:nth-child(3){
+    	text-align: right;
+    }
+
+
+    .faktura table tr.celkem td {
+    	font-weight: bold;
+    	text-align: right;
+    	font-size: 18px;
+    	
+
+    }
+
+    .faktura table tr.produkt.posl td:nth-child(3){
+    	border-bottom: 1px solid #f7f2ee;
+    	border-bottom-width: 5px;
+
+    }
+
+	</style>
+	
+	
+</head>
+
+<body>
+	<div class="faktura">
+		<table cellspacing="0" cellpadding="0">
+			<tr class="top">
+				<td colspan="3">
+				<table>
+					<tr>
+						<td>
+							<img src="logo_jabkarna.png" style="width: 100%; max-width: 250px;">
+
+						</td>
+						<td>
+							Cislo faktury: <b>9273</b> </br>
+							Datum: <b>11.12. 2018</b>
+						</td>
+
+
+					</tr>
+				</table>
+				</td>
+			</tr>
+
+			<tr class="adresa">
+				<td colspan="3">
+					<table>
+						<tr>
+							<td>
+								<b>Dodavatel:</b></br>
+								Jabkarna s.r.o. </br>
+								U kostela 178 </br>
+								Dolni Dvoriste, 382 72 </br>
+
+							</td>
+							<td>
+								<b>Odberatel:</b></br>
+								Yasmin Weissnat </br>
+								Namesti 992 </br>
+								Kaplice, 382 99 </br>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+
+			<tr class="nadpis">
+				<td>Produkt</td>
+				<td>Mnozstvi</td>
+				<td>Cena</td>
+
+			</tr>
+
+			<tr class="produkt">
+				<td>Macbook pro (2017)</td>
+				<td>2</td>
+				<td>78 999 Kc</td>
+
+			</tr>
+
+			<tr class="produkt">
+				<td>Macbook Air (2015)</td>
+				<td>1</td>
+				<td>24 999 Kc</td>
+
+			</tr>
+
+			<tr class="produkt">
+				<td>iPad Pro</td>
+				<td>1</td>
+				<td>19 999 Kc</td>
+
+			</tr>
+
+			<tr class="produkt">
+				<td>iPhone 6s</td>
+				<td>2</td>
+				<td>22 999 Kc</td>
+
+			</tr>
+
+			<tr class="produkt posl">
+				<td>Apple TV (2018)</td>
+				<td>3</td>
+				<td>18 238 Kc</td>
+
+			</tr>
+
+			<tr class="celkem">
+				<td></td>
+				<td></td>
+
+				<td>
+					Celkem: 165 021 Kc
+				</td>
+
+
+			</tr>
+					</table>
+			
+		</table>
+		
+	</div>
+
+</body>
+</html>
